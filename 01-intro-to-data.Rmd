@@ -17,4 +17,6 @@
 각각에 대한 기본 원칙을 소개하고 기본 도구 일부를 학습해 나갈 것이다.
 다른 분야 응용사례를 마주할 것인데, 일부는 과학과 꼭 연관되어 있지는 않지만, 그럼에도 불구하고, 통계조사를 통해 혜택을 받을 수 있다.
 
+## 사례 연구 - 뇌졸중을 방지에 사용되는 스텐트(Stent) [유튜브 강의 동영상](https://www.youtube.com/watch?v=nEHFF1ADpWE&list=PLkIselvEzpM6pZ76FD3NoCvvgkj_p-dE8) {#basicExampleOfStentsAndStrokes}
+
 
