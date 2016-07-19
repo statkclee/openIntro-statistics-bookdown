@@ -8,9 +8,9 @@ documentclass: book
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
-github-repo: rstudio/bookdown-demo
+github-repo: statkclee/openIntro-statistics-bookdown
 description: "OpenIntro Statistics 3번째 판을 한국어로 번역"
-font-family: 'NanumGothic'
+font-family: 'NanumBarunGothic'
 ---
 
 ```{r include=FALSE}
@@ -19,6 +19,8 @@ knitr::write_bib(c(
   .packages(), 'bookdown', 'knitr', 'rmarkdown'
 ), 'packages.bib')
 ```
+
+# 들어가며
 
 데이터과학과 인공지능(AI)이 많은 주목을 받고 있지만, 더불어 기초지식에 대한 요구가 점증하고 있는 것도 사실이다. 기초없이 사상누각을 세우면, 언제 어떻게 변할지 예상하지 못해 오히려 시작을 하지 않는 것이 더 나을 수도 있다. 
 

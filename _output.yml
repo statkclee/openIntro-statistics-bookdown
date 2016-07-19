@@ -5,9 +5,9 @@ bookdown::gitbook:
       before: |
         <li><a href="./">공개 기초 통계학</a></li>
       after: |
-        <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+        <li><a href="https://github.com/statkclee/openIntro-statistics" target="blank">Published with bookdown</a></li>
     edit:
-      link: https://github.com/rstudio/bookdown-demo/edit/master/%s
+      link: https://github.com/statkclee/openIntro-statistics/edit/master/%s
 bookdown::pdf_book:
   includes:
     in_header: preamble.tex
