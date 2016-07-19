@@ -10,7 +10,7 @@ biblio-style: apalike
 link-citations: yes
 github-repo: statkclee/openIntro-statistics-bookdown
 description: "OpenIntro Statistics 3번째 판을 한국어로 번역"
-font-family: 'NanumBarunGothic'
+font-family: 'NanumMyeongjo'
 ---
 
 ```{r include=FALSE}
