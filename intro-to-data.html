@@ -15,7 +15,7 @@
   
   
   <meta property="og:description" content="OpenIntro Statistics 3번째 판을 한국어로 번역" />
-  <meta name="github-repo" content="rstudio/bookdown-demo" />
+  <meta name="github-repo" content="statkclee/openIntro-statistics-bookdown" />
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="공개 기초 통계학" />
@@ -38,8 +38,8 @@ MathJax.Hub.Config({
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   
   
+<link rel="prev" href="index.html">
 
-<link rel="next" href="literature2.html">
 
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -109,17 +109,10 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li><a href="./">공개 기초 통계학</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="1" data-path="intro-to-data.html"><a href="intro-to-data.html"><i class="fa fa-check"></i><b>1</b> 데이터 소개</a></li>
-<li class="chapter" data-level="2" data-path="literature2.html"><a href="literature2.html"><i class="fa fa-check"></i><b>2</b> Literature2</a></li>
-<li class="chapter" data-level="3" data-path="methods.html"><a href="methods.html"><i class="fa fa-check"></i><b>3</b> Methods</a></li>
-<li class="chapter" data-level="4" data-path="applications.html"><a href="applications.html"><i class="fa fa-check"></i><b>4</b> Applications</a><ul>
-<li class="chapter" data-level="4.1" data-path="applications.html"><a href="applications.html#example-one"><i class="fa fa-check"></i><b>4.1</b> Example one</a></li>
-<li class="chapter" data-level="4.2" data-path="applications.html"><a href="applications.html#example-two"><i class="fa fa-check"></i><b>4.2</b> Example two</a></li>
-</ul></li>
-<li class="chapter" data-level="5" data-path="final-words.html"><a href="final-words.html"><i class="fa fa-check"></i><b>5</b> Final Words</a></li>
-<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> 들어가며</a></li>
+<li class="chapter" data-level="2" data-path="intro-to-data.html"><a href="intro-to-data.html"><i class="fa fa-check"></i><b>2</b> 데이터 소개</a></li>
 <li class="divider"></li>
-<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+<li><a href="https://github.com/statkclee/openIntro-statistics" target="blank">Published with bookdown</a></li>
 
 </ul>
 
@@ -138,30 +131,25 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="header">
-<h1 class="title">공개 기초 통계학</h1>
-<h4 class="author"><em>David M Diez, Christopher D Barr, Mine Cetinkaya-Rundel, 이광춘(번역)</em></h4>
-<h4 class="date"><em>2016-07-19</em></h4>
-</div>
 <div id="intro-to-data" class="section level1">
-<h1><span class="header-section-number">Chapter 1</span> 데이터 소개</h1>
-<p>You can label chapter and section titles using <code>{#label}</code> after them, e.g., we can reference Chapter <a href="intro-to-data.html#intro-to-data">1</a>. If you do not manually label them, there will be automatic labels anyway, e.g., Chapter <a href="methods.html#methods">3</a>.</p>
+<h1><span class="header-section-number">Chapter 2</span> 데이터 소개</h1>
+<p>You can label chapter and section titles using <code>{#label}</code> after them, e.g., we can reference Chapter <a href="intro-to-data.html#intro-to-data">2</a>. If you do not manually label them, there will be automatic labels anyway, e.g., Chapter <a href="#methods"><strong>??</strong></a>.</p>
 <p>Figures and tables with captions will be placed in <code>figure</code> and <code>table</code> environments, respectively.</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">par</span>(<span class="dt">mar =</span> <span class="kw">c</span>(<span class="dv">4</span>, <span class="dv">4</span>, .<span class="dv">1</span>, .<span class="dv">1</span>))
 <span class="kw">plot</span>(pressure, <span class="dt">type =</span> <span class="st">&#39;b&#39;</span>, <span class="dt">pch =</span> <span class="dv">19</span>)</code></pre></div>
 <div class="figure" style="text-align: center"><span id="fig:nice-fig"></span>
 <img src="openIntro-statistics_files/figure-html/nice-fig-1.png" alt="Here is a nice figure!" width="80%" />
 <p class="caption">
-Figure 1.1: Here is a nice figure!
+Figure 2.1: Here is a nice figure!
 </p>
 </div>
-<p>Reference a figure by its code chunk label with the <code>fig:</code> prefix, e.g., see Figure <a href="intro-to-data.html#fig:nice-fig">1.1</a>. Similarly, you can reference tables generated from <code>knitr::kable()</code>, e.g., see Table <a href="intro-to-data.html#tab:nice-tab">1.1</a>.</p>
+<p>Reference a figure by its code chunk label with the <code>fig:</code> prefix, e.g., see Figure <a href="intro-to-data.html#fig:nice-fig">2.1</a>. Similarly, you can reference tables generated from <code>knitr::kable()</code>, e.g., see Table <a href="intro-to-data.html#tab:nice-tab">2.1</a>.</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">knitr::<span class="kw">kable</span>(
   <span class="kw">head</span>(iris, <span class="dv">20</span>), <span class="dt">caption =</span> <span class="st">&#39;Here is a nice table!&#39;</span>,
   <span class="dt">booktabs =</span> <span class="ot">TRUE</span>
 )</code></pre></div>
 <table>
-<caption><span id="tab:nice-tab">Table 1.1: </span>Here is a nice table!</caption>
+<caption><span id="tab:nice-tab">Table 2.1: </span>Here is a nice table!</caption>
 <thead>
 <tr class="header">
 <th align="right">Sepal.Length</th>
@@ -316,6 +304,14 @@ Figure 1.1: Here is a nice figure!
 </table>
 <p>You can write citations, too. For example, we are using the <strong>bookdown</strong> package <span class="citation">(Xie <a href="#ref-R-bookdown">2016</a>)</span> in this sample book, which was built on top of R Markdown and <strong>knitr</strong> <span class="citation">(Xie <a href="#ref-xie2015">2015</a>)</span>. ddd aaa</p>
 
+<div id="refs" class="references">
+<div>
+<p>Xie, Yihui. 2015. <em>Dynamic Documents with R and Knitr</em>. 2nd ed. Boca Raton, Florida: Chapman; Hall/CRC. <a href="http://yihui.name/knitr/" class="uri">http://yihui.name/knitr/</a>.</p>
+</div>
+<div>
+<p>———. 2016. <em>Bookdown: Authoring Books with R Markdown</em>. <a href="https://github.com/rstudio/bookdown" class="uri">https://github.com/rstudio/bookdown</a>.</p>
+</div>
+</div>
 </div>
 <h3>References</h3>
 <div id="refs" class="references">
@@ -331,8 +327,8 @@ Figure 1.1: Here is a nice figure!
           </div>
         </div>
       </div>
+<a href="index.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
 
-<a href="literature2.html" class="navigation navigation-next navigation-unique" aria-label="Next page""><i class="fa fa-angle-right"></i></a>
 
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/lunr.js"></script>
@@ -359,7 +355,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/rstudio/bookdown-demo/edit/master/01-intro-to-data.Rmd",
+"link": "https://github.com/statkclee/openIntro-statistics/edit/master/01-intro-to-data.Rmd",
 "text": null
 },
 "download": null,
